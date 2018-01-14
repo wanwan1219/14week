@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #B3C04C;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            margin: 10px auto;
+            position: relative;
+            transition: all 1s;
+            -ms-transition: all 1s;
+            -webkit-transition: all 1s;
+        }
+
+        .box::before, .box::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .box::before {
+            background: url(img/bg.png)  right top;
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+            transition: all .3s;
+        }
+
+        .box::after {
+            transition: all .3s;
+            background: url(img/bg.png)  left top;
+            backface-visibility:hidden;
+            -webkit-backface-visibility:hidden; /* Chrome and Safari */
+            -moz-backface-visibility:hidden; /* Firefox */
+            -ms-backface-visibility:hidden; /* Internet Explorer */
+        }
+
+        .box:hover::before{
+            transform: rotateY(0deg);
+            -webkit-transform: rotateY(0deg);
+        }
+        .box:hover::after{
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

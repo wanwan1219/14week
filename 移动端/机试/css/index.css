@@ -1,0 +1,272 @@
+body{
+    /*max-width: 7.2rem;*/
+    margin: 0 auto;
+    font-size: .12rem;
+    width: 100%;
+    height: auto;
+    min-width: 3.2rem;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: .77rem;
+    background: #1db997;
+    z-index: 999;
+}
+.header-lt{
+    float: left;
+    line-height: .77rem;
+    margin: 0 .21rem;
+}
+.header-lt img{
+    width: .21rem;
+    height: .12rem;
+}
+.search{
+    float: left;
+    position:relative;
+    line-height: .77rem;
+}
+.search input{
+    width: 3.84rem;
+    height: .51rem;
+    border-radius: .25rem;
+    padding: 0 .17rem 0 .51rem;
+    border: 1px solid white;
+    font-size: .19rem;
+    line-height: .77rem;
+    box-sizing: border-box;
+    margin-top: .13rem;
+    outline: none;
+}
+.search img{
+    position: absolute;
+    left: .15rem;
+    top:50%;
+    margin-top: -.14rem;
+    width: .28rem;
+    height: .28rem;
+}
+.map{
+    float: right;
+    line-height: .77rem;
+    width: .43rem;
+    height: .43rem;
+    margin: 0 .17rem;
+}
+.map img{
+    width: 100%;
+}
+.list{
+    margin-top: .77rem;
+    width: 100%;
+}
+.list ul li{
+    width: 25%;
+    text-align: center;
+    margin-top: .25rem;
+    font-size: .20rem;
+    float: left;
+}
+.list ul li img{
+    width:50%;
+}
+.list ul li p{
+    line-height: .42rem;
+}
+.bm{
+    width: 96%;
+    margin: auto;
+    border-top: 2px dotted #c7c7c7;
+    border-bottom: 2px dotted #c7c7c7;
+}
+.bm textarea{
+    outline: none;
+    border: none;
+    width: 4.95rem;
+    height: 1rem;
+    line-height: .35rem;
+    padding: .17rem;
+    font-size: .23rem;
+    color: #333;
+    box-sizing: border-box;
+    float: left;
+}
+.bm textarea::-webkit-input-placeholder{
+    color: #ccc;
+}
+.bm a{
+    float: right;
+    width: .67rem;
+    height: .78rem;
+    line-height: .33rem;
+    text-align: center;
+    padding:0 .21rem;
+    margin-top: .15rem;
+    font-size: .3rem;
+    color: #00BA97;
+    border-left: 1px solid #dddddd;
+}
+.jy{
+    width: 100%;
+}
+.jy-left{
+    float: left;
+    width: 17%;
+    height: 1rem;
+    text-align: center;
+}
+.jy-left img{
+    width: .67rem;
+    height: .53rem;
+    margin-top: .2rem;
+}
+.jy-right{
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    float: left;
+    width: 78%;
+    height: .6rem;
+    overflow: hidden;
+    position: relative;
+}
+.jy-right ul{
+    padding-left: .3rem;
+    height: 3rem;
+    position: absolute;
+    top:0;
+    transition: top .5s linear 0s;
+}
+.jy-right ul li{
+    font-size: .2rem;
+    color: #666666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.banner1{
+    width: 100%;
+    height: 2.74rem;
+    overflow: hidden;
+}
+.banner1 ul{
+    width: 300%;
+    height: 2.74rem;
+    position: relative;
+    left: -100%;
+    transition: left .5s linear 0s;
+}
+.banner1 ul li{
+    width: 33.333333333%;
+    height: 2.74rem;
+    float: left;
+}
+.banner1 ul li img{
+    width: 100%;
+    height: 100%;
+}
+.time{
+    padding-top: .2rem;
+    width: 100%;
+    height: .63rem;
+}
+.time>p{
+    width: 100%;
+    text-align: center;
+    font-size: .26rem;
+    line-height: .3rem;
+    color: #ffb608;
+}
+.time p img{
+    vertical-align: middle;
+}
+.time p span{
+    vertical-align: middle;
+}
+
+.time .banner2{
+    width:100%;
+    overflow: hidden;
+}
+.time .banner2 ul{
+    width: 22.9rem;
+    position: relative;
+    left: 0;
+    margin-top: .3rem;
+}
+.time .banner2 ul li{
+    padding: 0 .1rem .2rem;
+    width: 2.7rem;
+    height: 3.41rem;
+    margin: 0 0 .2rem .15rem;
+    border: 1px solid #e5e5e5;
+    border-top: 2px solid #42d2b3;
+    background-color: #fff;
+    box-sizing: border-box;
+    float: left;
+}
+.time .banner2 ul li h1{
+    font-size: .32rem;
+    line-height: .42rem;
+    height: .66rem;
+    overflow: hidden;
+    padding: .1rem 0 0;
+    margin-bottom: .15rem;
+    color: #1db997;
+}
+.time .banner2 ul li .p1{
+    width: 100%;
+    padding-left: .4rem;
+    margin-bottom: .12rem;
+    margin-top: 0.1rem;
+    font-size: .12rem;
+    color: #666;
+    line-height: .38rem;
+}
+.time .banner2 ul li .p1 img{
+    margin: .05rem 0 0 -.4rem;
+    width: .28rem;
+    height: .28rem;
+    vertical-align: middle;
+}
+.time .banner2 ul li .p1 span{
+    vertical-align: middle;
+}
+.time .banner2 ul li .p2{
+    width: 100%;
+    padding-left: .4rem;
+    margin-bottom: .12rem;
+    margin-top: 0.1rem;
+    font-size: .26rem;
+    color: #666;
+    line-height: .38rem;
+}
+.time .banner2 ul li .p2 img{
+    margin: .05rem 0 0 -.4rem;
+    width: .28rem;
+    height: .28rem;
+    vertical-align: top;
+}
+.time .banner2 ul li .p2 span{
+    display: inline-block;
+    width: 80%;
+}
+.time .banner2 ul li .p3{
+    width: 100%;
+}
+.time .banner2 ul li .p3 .span1{
+    font-size: .27rem;
+    color: #fb565c;
+    height: .46rem;
+    overflow: hidden;
+}
+.time .banner2 ul li .p3 .span2{
+    padding: 0.04rem 0.1rem;
+    font-size: 0.24rem;
+    color: #FFFFFF;
+    background-color: #00bf98;
+    border-radius: 10px;
+}
